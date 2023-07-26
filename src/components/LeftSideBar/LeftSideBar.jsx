@@ -6,7 +6,7 @@ import {VscChromeClose} from 'react-icons/vsc'
 import { FaGlobeAmericas } from 'react-icons/fa'
 const LeftSideBar = () => {
 
-  const [barState, setBarState] = useState(false)
+  const [barState, setBarState] = useState(true)
   const showBar = () => {
   setBarState(!barState)
 }
